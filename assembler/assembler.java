@@ -2,11 +2,11 @@
 //
 //
 //      ** INSTRUCTIONS **
-// 1. use "chmod +x compile.sh" and "chmod +x run.sh" to allow the scripts to run.
+// 1. use "chmod +x scripts.sh" to allow the scripts to run.
 //
-// 2. use "./compil.sh" to compile the program
+// 2. use "./scripts.sh" to see script options
 //
-// 3. use "./run.sh" to run the program with the inputTest.txt
+// 3. use the format "./scripts.sh <option>" to use the scripts
 
 package assembler;
 
