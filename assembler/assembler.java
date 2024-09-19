@@ -36,7 +36,7 @@ public class assembler {
         ) {
             String line;
             while ((line = reader.readLine()) != null) {
-                line = line.split(";")[0].trim(); // Remove comments
+                line = line.split("//")[0].trim(); // Remove comments
 
                 String[] parts = line.split("\\s+");
                 if (parts.length >= 2) {
@@ -62,7 +62,7 @@ public class assembler {
         ) {
             String line;
             while ((line = reader.readLine()) != null) {
-                line = line.split(";")[0].trim(); // Remove comments
+                line = line.split("//")[0].trim(); // Remove comments
 
                 String[] parts = line.split("\\s+");
                 if (parts.length >= 2) {
